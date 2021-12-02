@@ -1,17 +1,25 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Kevin J Lambert</Authors>
     <Version>1.0.0</Version>
-    <Description>Mapping abstractions for an object-to-object mapper.</Description>
+    <Description>A basic mapper implementation using the Mapster framework.</Description>
     <RepositoryUrl>https://github.com/Yuck/YuckQi.Extensions.Mapping.Abstractions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Yuck/YuckQi.Extensions.Mapping.Abstractions</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YuckQi.Extensions.Mapping.Abstractions\YuckQi.Extensions.Mapping.Abstractions.csproj" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="readme.md">
