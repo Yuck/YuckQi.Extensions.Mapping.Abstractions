@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YuckQi.Extensions.Mapping.Abstractions", "src\YuckQi.Extensions.Mapping.Abstractions\YuckQi.Extensions.Mapping.Abstractions.csproj", "{D96F4DBA-D0B0-4F27-8936-EE61E3D96CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D96F4DBA-D0B0-4F27-8936-EE61E3D96CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96F4DBA-D0B0-4F27-8936-EE61E3D96CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96F4DBA-D0B0-4F27-8936-EE61E3D96CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96F4DBA-D0B0-4F27-8936-EE61E3D96CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02AD9DF1-9E3C-4C8B-B1DE-673FA0188FB9}
+	EndGlobalSection
+EndGlobal
